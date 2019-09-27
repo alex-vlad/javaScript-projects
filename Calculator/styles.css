@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+body {
+  width: 390px;
+  margin: 2% auto;
+  font-family: Orbitron, sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.6rem;
+  background-color: #6d8699;
+}
+
+.calculator {
+  padding: 20px;
+  background-color:#2c5c45;
+  border-radius: 10px;
+}
+
+.input {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  background-color:#64917c;
+}
+
+.input:hover {
+  border: 1px solid #bbb;
+}
+.operators div {
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  width: 35px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  color:#fff;
+  background-color: #000000;
+}
+
+.operators div:hover {
+  background-color: #313438;
+  border-color: #bbb;
+  box-shadow: 0 0 2px 1px #000;
+}
+
+.operators div:active {
+  font-weight: bold;
+}
+
+.leftPanel {
+  display: inline-block;
+}
+.numbers div {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.numbers div:hover {
+  background-color: #f1f1f1;
+  border-color: #bbb;
+  box-shadow: 0 0 2px 1px #000;
+}
+
+.numbers div:active {
+  font-weight: bold;
+}
+
+div.equal {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  padding: 10px 100px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #f57a38;
+}
+
+div.equal:hover {
+  background-color: #f2a455;
+  border-color: #1857BB;
+  box-shadow: 0 0 2px 1px #000;
+}
+
+div.equal:active {
+  font-weight: bold;
+}
